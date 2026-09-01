@@ -10,8 +10,7 @@ public class Consultor extends Pessoa{
     public String getMatricula(){
         return matricula;
     }
-        @Override
-
+    @Override
     public void exibirInformacoes(){
         System.out.println("=== CONSULTOR ===");
         System.out.println("Nome: " + getNome());
