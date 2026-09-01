@@ -3,7 +3,7 @@ package Exercicios.Lista_170826.Maior_Numero;
 import java.util.Scanner;
 
 public class MaiorNumero {
-    public static void veridicarMaior(String[] args){
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Insira o primeiro numero: ");
         double numero1 = sc.nextDouble();
